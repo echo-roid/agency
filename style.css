@@ -801,7 +801,7 @@ section.circlesection {
     }
 
     .bannersection {
-        height: 100vh;
+        height: 80vh;
     }
 
     .hero p {
@@ -929,4 +929,8 @@ section.circlesection {
     margin: 200px 0 0px;
 }
 
+
+.mobmb{
+    margin-bottom: 25px;
+}
 }
