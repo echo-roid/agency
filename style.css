@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     overflow-x: hidden;
 }
@@ -253,10 +257,13 @@ body{
 }
 
 .colorpink{
-    color: #f06292;
+    color: #f06292!important;
 }
 
-
+.bgwhite{
+    background-color: white!important;
+    color: black!important;
+}
 
 .desk{
     display: block!important;
@@ -266,6 +273,9 @@ body{
 .mob{
     display: none!important;
 }
+
+
+
 
 
 /*  */
@@ -701,7 +711,7 @@ section.circlesection {
 
 
 .adssection{
-    margin: 200px 0 100px;
+    margin: 200px 0 50px;
 }
 
 .adssection video{
@@ -711,11 +721,47 @@ section.circlesection {
 .adssection .rowflex{
     gap:20px;
 }
-
+.contain {
+    height: 553px;
+    /* width: 11%; */
+}
 
 .adsabout::after {
     bottom: -145px;
 }
+
+.filterimg{
+    width: 100%;
+  
+}
+.filtersec{
+    padding: 0;
+}
+.contentfilter{
+    padding: 36px;
+}
+
+/*  */
+
+
+.secondlast{
+    background-color: #f06292;
+    text-align: center;
+    padding:40px;
+}
+
+
+.secondlast h4{
+    margin-bottom: 20px;
+    color: white;
+    font-size:20px;
+}
+.secondlast h2{
+    color: white;
+    font-size: 30px;
+}
+
+/*  */
 /*  */
 .footer {
     width: 100%;
@@ -766,7 +812,6 @@ section.circlesection {
   }
 
   .copyright {
-    background-color: #ff4f81;
     color: #ffffff;
     padding: 15px;
     font-size: 14px;
@@ -774,8 +819,41 @@ section.circlesection {
     width: 100%;
     bottom: 0;
     margin-top: 20px;
+    border-top: 1px solid white;
+  }
+
+/* 
+  .filter{
+    background-color: white;
+    padding: 70px 0 70px;
+    margin-top: 162px;
+    margin-bottom: 0;
   }
   
+
+  .filter::after {
+    top: -112px;
+}
+  .filter .contentdivVision h2 {
+    margin-bottom: 20px;
+    color: black;
+    font-size: 35px;
+}
+
+  .filter .contentdivVision p {
+    text-align: justify;
+    color: black;
+    font-size: 18px;
+}
+
+.filter .imgdivVision{
+    width: 57%;
+    margin-right: 20px;
+}
+
+.filter .imgdivVision img {
+    width: 100%;
+} */
 /*  */
 
 
@@ -801,7 +879,7 @@ section.circlesection {
     }
 
     .bannersection {
-        height: 80vh;
+        height: 95vh;
     }
 
     .hero p {
