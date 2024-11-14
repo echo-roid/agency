@@ -1013,6 +1013,6 @@ section.circlesection {
 }
 
 .contentfilter {
-    padding: 10px;
+    padding: 0px!important;
 }
 }
