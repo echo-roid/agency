@@ -42,20 +42,20 @@
     <div class="logo poppins-semibold"><a href="./" class="colorpink">RK Media</a></div>
     <div class="desk">
       <ul class="menu ">
-        <li><a href="/" class="poppins-regular colorpink">Home</a></li>
+        <li><a href="./index.html" class="poppins-regular colorpink">Home</a></li>
         <li><a href="#aboutus" class="poppins-regular">About</a></li>
         <li><a href="#services" class="poppins-regular">Services</a></li>
-        <li><a href="#" class="poppins-regular">Works</a></li>
+        <li><a href="./work.html" class="poppins-regular">Works</a></li>
         <li><a href="./contactUs.html" class="poppins-regular ">Contacts</a></li>
       </ul>
     </div>
 
 
-    <div class="mob">
+    <div class="mob"  onclick="Openclose()">
       <i class="fa-solid fa-bars"></i>
     </div>
-    <div class="contact desk">
-      <i class="fa-solid fa-phone"></i> 1-800-123-4567
+    <div class="contact desk poppins-regular" >
+      <i class="fa-solid fa-phone" ></i> 1-800-123-4567
     </div>
   </div>
 
@@ -421,6 +421,8 @@
     </div>
   </footer>
 
+
+
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
@@ -447,6 +449,12 @@
         }
       }
     })
+  </script>
+
+  <script>
+      function Openclose(){
+        document.getElementById("navbar").classList.toggle("dnone")
+      }
   </script>
 
 </body>

@@ -29,7 +29,7 @@
       
         <div class="desk">
           <ul class="menu ">
-              <li ><a href="/"  >Home</a></li>
+              <li ><a href="./index.html"  >Home</a></li>
               <li ><a href="#">About</a></li>
               <li ><a href="#">Services</a></li>
               <li ><a href="#">Works</a></li>
@@ -38,7 +38,7 @@
         </div>
        
       
-        <div class="mob">
+        <div class="mob"  onclick="Openclose()">
           <i class="fa-solid fa-bars"></i>
         </div>
           <div class="contact desk">
@@ -125,5 +125,33 @@
           </div>
         </div>
       </div>
+
+
+
+
+      <div class="dnone" id="navbar" onclick="Openclose()">
+        <div class="mob menumobmain">
+          <div class="logomoB">
+            <div class="logo poppins-semibold"><a href="./" >RK Media</a></div>
+            <ul class="menumob">
+              <li><a href="./index.html" class="poppins-regular ">Home</a></li>
+              <li><a href="#aboutus" class="poppins-regular">About</a></li>
+              <li><a href="#services" class="poppins-regular">Services</a></li>
+              <li><a href="./work.html" class="poppins-regular ">Works</a></li>
+              <li><a href="./contactUs.html" class="poppins-regular cb">Contacts</a></li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+
+
+      <script>
+        function Openclose(){
+          document.getElementById("navbar").classList.toggle("dnone")
+        }
+    </script>
 </body>
+
+
 </html>
